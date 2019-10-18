@@ -1,0 +1,35 @@
+{
+  "name": "USerializer",
+  "version": "0.5.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Emil Olsson",
+  "license": "MIT",
+  "homepage": "https://github.com/lillheaton/USerializer#readme",
+  "scripts": {
+    "build:release": "set CONFIGURATION=Release&& babel-node tools/build.js ci",
+    "setVersion": "babel-node tools/build.js setVersion"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lillheaton/USerializer.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "chalk": "^2.4.1",
+    "child-process-promise": "^2.2.1",
+    "cross-env": "^5.2.0",
+    "moment": "^2.22.2",
+    "prettier": "^1.15.2",
+    "shelljs": "^0.8.3",
+    "simple-make": "^2.1.0",
+    "stylelint": "^9.7.1",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-config-standard": "^18.2.0",
+    "xml2js": "^0.4.19"
+  }
+}
