@@ -15,7 +15,7 @@ namespace USerializer.PropertyConverters
 
         public object Convert(IPublishedElement target)
         {
-            return target?.Properties.ToDictionary(x => x.Alias, _publishedPropertyConverter.Convert);
+            return target?.Properties.ToDictionary(x => x.Alias, x => _publishedPropertyConverter.Convert(x) ?? null);
         }
     }
 }
