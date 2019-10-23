@@ -11,7 +11,7 @@ namespace USerializer.Utils
             {
                 return 0;
             }
-            else if (x.IsSubclassOf(y))
+            else if (x.IsSubclassOf(y) || y.IsAssignableFrom(x))
             {
                 return -1;
             }
