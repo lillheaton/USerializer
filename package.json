@@ -23,7 +23,7 @@
     "chalk": "^2.4.1",
     "child-process-promise": "^2.2.1",
     "cross-env": "^5.2.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "prettier": "^1.15.2",
     "shelljs": "^0.8.3",
     "simple-make": "^2.1.0",
